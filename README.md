@@ -2,25 +2,24 @@
 
 ## Project Overview
 
-The Spam Mail Protection System is a simple Python-based application that detects spam emails using keyword analysis and scoring techniques. This project identifies whether an email message is Spam, Suspicious, or Not Spam based on predefined spam-related keywords such as free, win, money, offer, prize, urgent, etc.
+The Spam Mail Protection System is a simple python-based application that detects spam emails using keyword analysis and scoring techniques. This project identifies whether an email message is spam, suspicious, or not spam based on predefined spam-related keywords such as free, win, money, offer, prize or urgent etc.
 
-The system is built using basic Python programming concepts. It demonstrates how real-world problems like spam detection can be solved using logical programming and structured code.
+The system is built using basic python programming concepts. It demonstrates how real-world problems like spam detection can be solved using programming and coding.
 
-This project is developed as part of the BYOP (Build Your Own Project) assignment to solve a real-world cybersecurity problem using Python and Machine Learning.
+This project is developed as part of the VITyarthi BYOP assignment to solve a real-world cybersecurity problem using Python and Machine Learning.
 
 ## Problem Statement
 
-Spam emails and phishing messages are a common issue in digital communication.
-Users frequently receive emails containing fake offers, lottery messages, urgent financial requests, and malicious links that may lead to fraud or data theft.
+Spam email and messages are a common issue in digital communication.
+Users frequently receive emails containing fake offers, lottery messages, urgent financial requests, and suspicious links that may lead to fraud or data theft.
 
-The goal of this project is to create a simple and easy-to-use system that can detect spam emails and help users identify suspicious messages using basic Python knowledge.
+The goal of this project is to create a simple and easy-to-use system that can detect spam emails and help users identify fruadulent messages using basic Python knowledge.
 
 ## Features
 1. Detects spam emails using keyword-based scoring
-2. Classifies emails as:
-3. SPAM, SUSPICIOUS, NOT SPAM classification
-4. Menu-driven program
-5. Checks single email message, multiple emails from file, adds new spam keywords, saves results to file, displays spam word list.
+2. Classifies emails as: spam, suspicious or not spam
+3. Menu-driven program
+4. Checks single email message, multiple emails from file, adds new spam keywords, saves results to file and displays spam word list.
 
 ## Installation and Setup
 
@@ -29,7 +28,7 @@ Download and install Python from: https://www.python.org/downloads/
 
 #### Step 2: Download the Project
 Clone the repository from GitHub:
-git clone https://github.com/sartha-cmyk/Spam-Mail-Protection.git
+https://github.com/sartha-cmyk/Spam-Mail-Protection.git
 
 Go to project folder:cd spam-mail-protection
 
@@ -53,11 +52,11 @@ Spam Mail Protection System
 Enter any email message and the system will classify it.
 
 Example:
-Enter Email Message: Congratulations you win free money prize
+Enter Email Message: Congratulations you win the lottery !!!!!
 
 Output:
-Spam Score: 3
-Result: SPAM
+Spam Score: 2
+Result: SUSPICIOUS
 
 ### Option 2: Check Emails from File
 The program reads emails from emails.txt and detects spam automatically.
@@ -80,15 +79,14 @@ User can add new spam keywords.
 Example:
 Enter new spam word: bitcoin
 
-The system will now detect emails containing "bitcoin" as spam.
+The system will now detect emails containing 'bitcoin' as spam.
 
 ### Option 4: Save Email Result
 Stores email classification in results.txt.
 
 Example: Hello free offer
 
-Saved in file:
-Hello free offer --> SPAM
+Saved in file SPAM
 
 ### Option 5: Show Spam Words
 Displays all spam keywords used in the system.
